@@ -4,6 +4,6 @@ class CreateRides < ActiveRecord::Migration
       t.integer :passenger_id
       t.timestamps null: false
     end
-  end
+  end passenger_id:integer taxi_id:integer
 end
-rake db:create_migration NAME="rides_and_taxis" passenger_id:integer taxi_id:integer
+rake db:create_migration NAME="rides_and_taxis"
