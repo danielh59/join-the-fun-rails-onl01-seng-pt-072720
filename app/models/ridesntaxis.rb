@@ -1,0 +1,3 @@
+class RidesNTaxis
+
+end 
