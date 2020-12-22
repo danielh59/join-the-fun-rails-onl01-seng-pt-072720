@@ -1,3 +1,4 @@
 class RidesNTaxis
-
-end 
+  belongs_to :passenger
+  belongs_to :taxi
+end
